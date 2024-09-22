@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<artwork>
+  <output type="screenshot" width="640"/>
+  <output type="cover" width="640" height="480">
+    <layer resource="cover" height="480" align="center" valign="middle">
+      <gamebox side="wheel" rotate="90"/>
+    </layer>
+  </output>
+  <output type="wheel" height="200"/>
+</artwork>
