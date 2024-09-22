@@ -55,7 +55,7 @@ Pegasus has no information about what ROMs are – that information is provided 
    1. Delete `command: /opt/retropie/supplementary/runcommand/runcommand.sh 0 _SYS_ snes "{file.path}"` near the top
    2. Replace it with `launch: flatpak run org.libretro.RetroArch -L "/home/rkabelitz/.var/app/org.libretro.RetroArch/config/retroarch/cores/mgba_libretro.so" {file.path}`
       1. (replace the mgba_libretro.so with whatever retroarch core you want to use for the given console)
-      2. Where it says `“{file.path}”`, that isnt me asking you to fill in a file path – literally just leave it as “{file.path}”
+      2. Where it says `“{file.path}”`, that isnt me asking you to fill in a file path – literally just leave it as `“{file.path}”`
 ## 4. Finishing Touches
 Now we just need to update Pegasus super fast, so it can see your games and their assets that you now obtained through Skyscraper
 
@@ -121,7 +121,7 @@ Pegasus has no information about what ROMs are – that information is provided 
    1. Delete `command: /opt/retropie/supplementary/runcommand/runcommand.sh 0 _SYS_ snes "{file.path}"` near the top
    2. Replace it with `launch: C:\RetroArch\retroarch.exe  -L C\RetroArch\cores\bsnes2014_accuracy_libretro.so  {file.path}`
       1. (replace the bsnes2014_accuracy_libretro.so with whatever retroarch core you want to use for the given console)
-      2. Where it says “{file.path}”, that isnt me asking you to fill in a file path – literally just leave it as “{file.path}”
+      2. Where it says “{file.path}”, that isnt me asking you to fill in a file path – literally just leave it as `“{file.path}”`
 ## 4. Finishing Touches
 Now we just need to update Pegasus super fast, so it can see your games and their assets that you now obtained through Skyscraper
 
