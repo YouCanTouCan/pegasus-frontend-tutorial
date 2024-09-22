@@ -1,5 +1,5 @@
 # Pegasus Frontend Tutorial
-A description for how to get Pegasus-Frontend working with Steam, Retroarch, Epic Games, GOG, and other executable games when on either [Aurora](#Aurora-Linux) (a version of Fedora) or [Windows](Windows).
+A description for how to get Pegasus-Frontend working with Steam, Retroarch, Epic Games, GOG, and other executable games when on either Aurora (a version of Fedora) or Windows.
 
 The explanation for Aurora is likely extremely applicable to other distributions, Aurora is just what I personally use and can verify that as of writing this these steps work on. I do not use Windows myself, so that section I am less sure about.
 
