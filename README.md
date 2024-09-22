@@ -57,7 +57,7 @@ Pegasus has no information about what ROMs are – that information is provided 
 6. Go to `home/Games/nds` and check if theres a couple new files and a “Media” folder. If so, it worked!
 7. While here, inside the folder named after the console open `metadata.pegasus.txt` in Notepad. 
    1. Delete `command: /opt/retropie/supplementary/runcommand/runcommand.sh 0 _SYS_ snes "{file.path}"` near the top
-   2. Replace it with `launch: flatpak run org.libretro.RetroArch -L "/home/rkabelitz/.var/app/org.libretro.RetroArch/config/retroarch/cores/mgba_libretro.so" {file.path}`
+   2. Replace it with `launch: flatpak run org.libretro.RetroArch -L "/home/<YOURUSER>/.var/app/org.libretro.RetroArch/config/retroarch/cores/mgba_libretro.so" {file.path}`
       1. (replace the mgba_libretro.so with whatever retroarch core you want to use for the given console)
       2. Where it says `“{file.path}”`, that isnt me asking you to fill in a file path – literally just leave it as `“{file.path}”`
 ## 4. Finishing Touches
