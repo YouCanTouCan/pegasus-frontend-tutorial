@@ -3,6 +3,8 @@ A description for how to get Pegasus-Frontend working with Steam, Retroarch, Epi
 
 The explanation for Aurora is likely extremely applicable to other distributions, Aurora is just what I personally use and can verify that as of writing this these steps work on. I do not use Windows myself, so that section I am less sure about.
 
+I made this simply because I was frustrated by the lack of easy to use information for Fedora-based distrubutions, as I myself am very much an end-user and I can struggle sometimes to follow more vague documentation. I thought I would share my experience as this setup works amazingly, and I thought maybe someone else would appreciate this explanation. If you find something wrong with it, feel free to open an Issue - I won't necessarily fix it, but it could help other future users.
+
 Aurora Linux
 ======
 
