@@ -51,9 +51,9 @@ Pegasus has no information about what ROMs are – that information is provided 
    2. Replace it with the “config.ini” and “artwork.xml” files from this github
 5. Each console folder you have in `home/Games` will need you to run two commands for them. For this example, we will assume you are doing it for the DS (nds). Every console is exactly the same, but replace “nds” with the name of the folder you made earlier for each console.
    1. Close Pegasus if its open. 
-   2. `Skyscraper -f pegasus -s screenscraper -p nds`
+   2. `Skyscraper -s screenscraper -p nds`
    3. Wait until it says its done
-   4. `Skyscraper -f pegasus -p nds`
+   4. `Skyscraper -p nds`
 6. Go to `home/Games/nds` and check if theres a couple new files and a “Media” folder. If so, it worked!
 7. While here, inside the folder named after the console open `metadata.pegasus.txt` in Notepad. 
    1. Delete `command: /opt/retropie/supplementary/runcommand/runcommand.sh 0 _SYS_ snes "{file.path}"` near the top
@@ -117,9 +117,9 @@ Pegasus has no information about what ROMs are – that information is provided 
 6. Open Skyscraper.exe using either Cygwin (I imagine you can do this by right clicking then Open With) or just the Windows Terminal (Command Prompt? Whats it called in Windows again?)
 7. Each console folder you have in `C\Users\Games` will need you to run two commands for them. For this example, we will assume you are doing it for the DS (nds). Every console is exactly the same, but replace “nds” with the name of the folder you made earlier for each console.
    1. Close Pegasus if its open. 
-   2. `Skyscraper -f pegasus -s screenscraper -p nds`
+   2. `Skyscraper -s screenscraper -p nds`
    3. Wait until it says its done
-   4. `Skyscraper -f pegasus -p nds`
+   4. `Skyscraper -p nds`
 8. Go to `C:\Users\Games\nds` and check if theres a couple new files and a “Media” folder. If so, it worked!
 9. While here, inside the folder named after the console open “metadata.pegasus.txt” in Notepad. 
    1. Delete `command: /opt/retropie/supplementary/runcommand/runcommand.sh 0 _SYS_ snes "{file.path}"` near the top
